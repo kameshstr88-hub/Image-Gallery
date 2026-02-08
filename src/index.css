@@ -10,6 +10,20 @@ body {
 }
 
 
+.navbar {
+  background-color: black ;
+  
+  padding: 20px;
+  text-align: center;
+}
+
+.nav-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+
 h1 {
   
   text-align: center;

@@ -1,13 +1,14 @@
+import Navbar from "./components/Navbar"
 import Gallery from "./components/Gallery"
 import Footer from "./components/Footer"
 
 function App() {
   return (
-    <div>
-      <h1 className="title">Dynamic Image Gallery</h1>
+    <>
+      <Navbar />
       <Gallery />
       <Footer />
-    </div>
+    </>
   )
 }
 
